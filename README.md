@@ -1,5 +1,11 @@
 # Adjusting the Cambridge Bitcoin Electricity Consumption Index for US Energy Prices
 
+Last data updates:
+- Cambridge Bitcoin Electricity Consumption Index: Nov 12, 2022
+- US Energy Information Administration: Nov 10, 2022 (data to August 2022)
+
+---
+
 The Cambridge Bitcoin Electricity Consumption Index is the gold standard of models for tracking the power utilization of the Bitcoin Network, but it is not without flaws. One of these flaws is the model's assumption of constant global electricity prices ($0.05 per kWh). In the current energy shortage, the world is faced with rapidly rising electricity prices and the model must be adjusted.
 
 ![Rising Electricity Prices](./tmp-figures/electricity-rates.png)
@@ -10,6 +16,21 @@ The data finds that although average US industrial electricity prices discounted
 
 ![Rising Electricity Prices](./tmp-figures/cbeci-adjusted-recent.png)
 
+
+## Usage
+
+If the latest dataset is stale, you should update both the CBECI and EIA data. 
+
+To update the CBECI data:
+- Run the Jupyter Notebook titled `generate-cambridge-data.ipynb`
+- The data will be automatically downloaded and saved into the `datasets` directory.
+
+To update the EIA data: 
+- Go to the following link to access [EIA data](https://www.eia.gov/electricity/data/browser/#/topic/7?agg=0,1&geo=g&endsec=2&linechart=ELEC.PRICE.US-IND.M&columnchart=ELEC.PRICE.US-IND.M&map=ELEC.PRICE.US-IND.M&freq=M&start=201001&ctype=map&ltype=pin&rtype=s&pin=&rse=0&maptype=0)
+- Scroll down and ensure that the slider near the top of the table has the latest date selected
+- Hit the `DOWNLOAD` dropdown and select `Table (CSV)` 
+- Copy the downloaded .csv file into the datasets folder replacing the stale dataset previously contained.
+- Run the `energy-adjusted-cbeci.ipynb` or test scripts to generate new figures
 
 ## Limitations
 
