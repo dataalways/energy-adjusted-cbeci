@@ -1,8 +1,8 @@
 # Adjusting the Cambridge Bitcoin Electricity Consumption Index for US Energy Prices
 
 Last data updates:
-- Cambridge Bitcoin Electricity Consumption Index: Nov 14, 2022
-- US Energy Information Administration: Nov 10, 2022 (data to August 2022)
+- Cambridge Bitcoin Electricity Consumption Index: Nov 23, 2022
+- US Energy Information Administration: Nov 23, 2022 (data to August 2022)
 
 ---
 
