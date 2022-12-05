@@ -1,5 +1,11 @@
 # Adjusting the Cambridge Bitcoin Electricity Consumption Index for US Energy Prices
 
+#### Cambridge Consumption Estimate (Dec 3, 2022): 86.2 TWh per year
+#### Electricity Price Adjusted Estimate  (Dec 3, 2022): 72.3 TWh per year
+
+
+--- 
+
 Last data updates:
 - Cambridge Bitcoin Electricity Consumption Index: Dec 3, 2022
 - US Energy Information Administration: Dec 3, 2022 (data to September 2022)
