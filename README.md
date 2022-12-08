@@ -3,14 +3,14 @@
 
 | Source | Date | Latest Reading |
 |:------------------------------------|:---------------------------------------------|:---------------------------------------------|
-| [Cambridge Bitcoin Electricity Consumption Index (CBECI)](https://ccaf.io/cbeci/index) | 2022-12-03 | 86.2 TWh per year |
-| CBECI Adjusted for Electricity Prices | 2022-12-03 | 72.3 TWh per year |
+| [Cambridge Bitcoin Electricity Consumption Index (CBECI)](https://ccaf.io/cbeci/index) | 2022-12-07 | 88.9 TWh per year |
+| CBECI Adjusted for Electricity Prices | 2022-12-07 | 74.4 TWh per year |
 
 
 --- 
 
 Last data updates:
-- Cambridge Bitcoin Electricity Consumption Index: Dec 3, 2022
+- Cambridge Bitcoin Electricity Consumption Index: Dec 7, 2022
 - US Energy Information Administration: Dec 3, 2022 (data to September 2022)
 
 ---
