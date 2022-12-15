@@ -3,14 +3,14 @@
 
 | Source | Date | Latest Reading |
 |:------------------------------------|:---------------------------------------------|:---------------------------------------------|
-| [Cambridge Bitcoin Electricity Consumption Index (CBECI)](https://ccaf.io/cbeci/index) | 2022-12-07 | 88.9 TWh per year |
-| CBECI Adjusted for Electricity Prices | 2022-12-07 | 74.4 TWh per year |
+| [Cambridge Bitcoin Electricity Consumption Index (CBECI)](https://ccaf.io/cbeci/index) | 2022-12-13 | 94.5 TWh per year |
+| CBECI Adjusted for Electricity Prices | 2022-12-13 | 78.1 TWh per year |
 
 
 --- 
 
 Last data updates:
-- Cambridge Bitcoin Electricity Consumption Index: Dec 7, 2022
+- Cambridge Bitcoin Electricity Consumption Index: Dec 13, 2022
 - US Energy Information Administration: Dec 3, 2022 (data to September 2022)
 
 ---
@@ -21,7 +21,7 @@ The Cambridge Bitcoin Electricity Consumption Index is the gold standard of mode
 
 The attached Jupyter Notebook leverages data available from the US Energy Information Administration and the availability of CBECI data for various energy price assumptions to model the expected network power usage over time for the given price data. 
 
-The data finds that although average US industrial electricity prices discounted by 27% to best-match the historic $0.05 per kWh assumption from Cambridge, has historically lined up well with the data, the values in 2022 differ dramatically, suggesting that the CBECI is currently overestimating the electricity demand that the network can support by as much as 16%.
+The data finds that although average US industrial electricity prices discounted by 27% to best-match the historic $0.05 per kWh assumption from Cambridge, has historically lined up well with the data, the values in 2022 differ dramatically, suggesting that the CBECI is currently overestimating the electricity demand that the network can support by as much as 20%.
 
 ![Rising Electricity Prices](./tmp-figures/cbeci-adjusted-recent.png)
 
